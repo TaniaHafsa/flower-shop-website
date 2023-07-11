@@ -320,8 +320,6 @@ section .hot-sale {
 
 /* contact section starts */
 
-
-
 .section-description {
   color: #757575;
   text-align: center;
@@ -335,12 +333,13 @@ section .hot-sale {
   text-align: center;
   font-size: 35px;
   font-weight: 700;
+  margin-bottom: 20px;
 
 }
 
 .btn {
   border-radius: 5px;
-  background: #FD6E0A;
+  background: #E55473;
   border: 0;
   font-size: 20px;
   font-weight: 700;
@@ -348,13 +347,7 @@ section .hot-sale {
   color: white;
 }
 
-footer {
-  display: flex;
-  gap: 100px;
-  background: #FFF8F3;
-  margin-top: 100px;
-  padding: 130px 200px;
-}
+
 
 .contact-column {
   width: 50%;
@@ -366,6 +359,7 @@ footer {
 
 .contact input[type="text"],
 .contact input[type="email"],
+.contact input[type="number"],
 textarea {
   display: block;
   margin-bottom: 25px;
@@ -378,19 +372,24 @@ textarea {
 }
 
 .design {
-  color: #FD6E0A;
+  color: #fd880a;
+  margin: 0 150px;
   margin-top: 130px;
   max-width: 1140px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 200px
+  gap: 150px;
+  background-color: rgb(226, 239, 239);
+  padding: 100px 100px;
+
 }
+
+/* contact section end */
 
 /* footer section starts */
 
-.footer {
+footer {
   margin-top: 100px;
   width: 100%;
   height: 380px;
@@ -419,7 +418,7 @@ textarea {
   padding-top: 100px;
 }
 
-.footer-paragraph1 {
+.footer-part1 {
   color: rgba(255, 255, 255, 0.90);
   text-align: center;
   font-family: Lato;
@@ -428,7 +427,7 @@ textarea {
   line-height: 30px;
 }
 
-.footer-paragraph2 {
+.footer-part2 {
   margin-top: 30px;
   color: rgba(255, 255, 255, 0.40);
   text-align: center;
